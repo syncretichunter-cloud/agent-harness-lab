@@ -1,0 +1,32 @@
+# Credentials and local settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets/
+
+# Python and environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+build/
+dist/
+
+# Local data and generated output; curated public fixtures are tracked separately
+.local/
+artifacts/private/
+*.log
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
